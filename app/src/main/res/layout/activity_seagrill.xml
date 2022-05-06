@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
-        app:layout_constraintBottom_toTopOf="@+id/BuscarCoctel"
+        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -39,10 +39,11 @@
                 android:inputType="textPersonName"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="12sp"
+                android:textSize="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/tvdescripcion"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
                 tools:ignore="HardcodedText" />
 
             <EditText
@@ -50,20 +51,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="155dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="21dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:background="@drawable/rounded_corner_seagrill"
                 android:ems="10"
                 android:gravity="center"
-                android:hint="Descripción"
+                android:hint="Ingredientes"
                 android:importantForAutofill="no"
                 android:inputType="textMultiLine"
                 android:textColor="@color/white"
                 android:textColorHint="#FFFFFF"
-                android:textSize="12sp"
+                android:textSize="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvnombre"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
                 tools:ignore="HardcodedText" />
 
             <EditText
@@ -82,10 +84,11 @@
                 android:inputType="textPersonName"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="12sp"
+                android:textSize="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvdecoracion"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
                 tools:ignore="HardcodedText" />
 
             <EditText
@@ -104,11 +107,11 @@
                 android:inputType="textPersonName"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="12sp"
+                android:textSize="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvdescripcion"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
                 tools:ignore="HardcodedText" />
 
             <ImageButton
@@ -118,16 +121,15 @@
                 android:layout_gravity="right"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="24dp"
                 android:background="@drawable/rounded_corner_seagrill"
                 android:contentDescription="buscar coctel"
                 android:onClick="buscar"
-                app:layout_constraintBottom_toTopOf="@+id/tvdescripcion"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/tvnombre"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.714"
+                app:layout_constraintVertical_bias="0.243"
                 app:srcCompat="@android:drawable/ic_menu_search"
                 tools:ignore="HardcodedText,RtlHardcoded" />
 
@@ -226,6 +228,42 @@
                 tools:ignore="ContentDescription">
 
             </ImageView>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ingredientes"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/tvdescripcion"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="@+id/tvdescripcion"
+                app:layout_constraintTop_toBottomOf="@+id/tvnombre" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/decoracion"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/tvdecoracion"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="@+id/tvdecoracion"
+                app:layout_constraintTop_toBottomOf="@+id/tvdescripcion" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Metodo de preparación"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/tvmetodo"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="@+id/tvmetodo"
+                app:layout_constraintTop_toBottomOf="@+id/tvdecoracion" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 

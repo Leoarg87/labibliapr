@@ -6,12 +6,12 @@
         <type value="RUNNING_DEVICE_TARGET" />
         <deviceKey>
           <Key>
-            <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\leofu\.android\avd\Leo_1.avd" />
+            <type value="SERIAL_NUMBER" />
+            <value value="adb-RF8M6220KAK-03yUa0._adb-tls-connect._tcp" />
           </Key>
         </deviceKey>
       </Target>
     </runningDeviceTargetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2022-05-06T14:41:46.533567200Z" />
+    <timeTargetWasSelectedWithDropDown value="2022-05-06T15:03:27.554634400Z" />
   </component>
 </project>

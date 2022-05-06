@@ -16,7 +16,7 @@ class SQLite(
     //Metodos constructores
     override fun onCreate(db: SQLiteDatabase?) {
         //creacion de query
-     db?.execSQL("create table cocteles(id int primary key autoincrement,nombre text, descripcion text,metodo text, decoracion text, restaurante text)")
+     db?.execSQL("create table cocteles(id INTEGER PRIMARY KEY AUTOINCREMENT,nombre text, descripcion text,metodo text, decoracion text, restaurante text)")
     }
 
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion : Int, newVersion: Int) {
