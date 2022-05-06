@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" >La Biblia de Puente Romano</string>
+    <string name="btnChiringuito">Chiringuito</string>
+    <string name="btnSeagrill">Seagrill</string>
+    <string name="btnSupperclub">SupperClub</string>
+    <string name="btnvolver">Volver al principio</string>
+    <string name="signatures">Signatures</string>
+    <string name="decoracion">Decoración</string>
+    <string name="danny_s_margarita">DANNY’S MARGARITA</string>
+    <string name="coco_chili_mojito">COCO CHILI MOJITO</string>
+    <string name="nombre">Nombre</string>
+    <string name="metodo">Metodo</string>
+    <string name="restaurante">Restaurante</string>
+    <string name="descripcion">Descripción</string>
+    <string name="agregar_coctel">Agregar coctel</string>
+</resources>

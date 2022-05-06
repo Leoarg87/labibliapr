@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtnombrecoctel" type="id" />
+    <item name="txtdescripcion" type="id" />
+    <item name="tvmetodo" type="id" />
+    <item name="tvdecoracion" type="id" />
+</resources>
