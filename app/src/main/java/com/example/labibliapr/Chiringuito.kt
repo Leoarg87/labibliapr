@@ -9,6 +9,7 @@ import android.widget.*
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
+
 class Chiringuito : AppCompatActivity() {
     //Declaracion de variables de botones y textos
     var botonvolver: Button? = null
