@@ -4,12 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/drawable/rounded_corner.xml" value="0.284" />
+        <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/drawable/rounded_corner_chiringuito.xml" value="0.356" />
         <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/drawable/rounded_corner_seagrill.xml" value="0.284" />
         <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/drawable/rounded_corner_supperclub.xml" value="0.284" />
         <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/layout/activity_chiringuito.xml" value="0.4320193081255028" />
         <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/layout/activity_main.xml" value="0.45897435897435895" />
-        <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/layout/activity_seagrill.xml" value="0.33" />
-        <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/layout/activity_supperclub.xml" value="0.33" />
+        <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/layout/activity_seagrill.xml" value="0.5" />
+        <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/layout/activity_supperclub.xml" value="0.4658583280153159" />
         <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/layout/item_table_layout_cocteles.xml" value="0.21611253196930946" />
         <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/layout/registro.xml" value="0.33" />
         <entry key="..\:/Users/leofu/Desktop/MASTER/Aplicaciones Android/LaBibliaPr/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1845" />
